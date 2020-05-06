@@ -78,7 +78,7 @@ p {
 
 
 .description {
-
+    border-bottom: 1px #cccccc solid;
     display: flex;
     justify-content: space-evenly;
 }
@@ -93,6 +93,16 @@ p {
     padding-bottom: 20px;
 
 }
+.comments {
+    width: 100%;
+}
+.comments > .comment-items {
+    float: left;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 
 a {
     padding-top: 20px;
@@ -105,4 +115,19 @@ button {
     color: #ffffff;
     border: none;
     text-transform: uppercase;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+.comment-detail, .status {
+    display: flex;
+    flex-direction: row;
+}
+.status {
+    justify-content: flex-start;
+}
+.comment-text > p {
+    padding: 10px 5px;
 }
