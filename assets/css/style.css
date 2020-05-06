@@ -32,3 +32,77 @@ img {
     width: auto;
     margin-right: 20px;
 }
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    background-color: #f0f0f0;
+    width: 100%;
+}
+
+section {
+    margin: 20px 20px 0px 20px;
+}
+
+section > div {
+    padding: 20px 0px 20px 0px;
+}
+
+aside {
+    margin: 20px 20px 0px 20px;
+    padding-left: 20px;
+}
+
+.related_video {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+
+.related_video > div {
+    margin-left: 20px;
+}
+
+p {
+    padding-top: 5px;
+}
+
+.rating {
+
+    margin-top: 20px 20px 0px 0px;
+
+    border-bottom: 1px #cccccc solid;
+
+    
+}
+
+
+.description {
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.description > div {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.description > div > p {
+
+    padding-bottom: 20px;
+
+}
+
+a {
+    padding-top: 20px;
+}
+
+button {
+    background-color:#ff0000;
+    width: 100px;
+    height: 32px    ;
+    color: #ffffff;
+    border: none;
+    text-transform: uppercase;
+}
