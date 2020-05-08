@@ -230,10 +230,31 @@ ul {
     justify-content: space-between;
     padding: 25px 5px;
     border-top: 2px #ccc solid;
+    margin-bottom: 5px;
+    background: white;
 }
 .share {
     text-align: left;
 }
 .sentiments {
     text-align: right;
+}
+hr {
+    margin: 10px 0px 10px 0px;
+}
+
+.current-video-description {
+    
+    margin-top: 20px;
+    background: white;
+    padding: 10px;
+}
+
+.current-video-description-show-more {
+   text-align: center;
+}
+
+.current-video-description-show-more > a {
+    text-transform: uppercase;
+    color: gray;
 }
