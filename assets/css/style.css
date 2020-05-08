@@ -101,8 +101,7 @@ p {
 .rating {
 
     margin-top: 20px 20px 0px 0px;
-
-    border-bottom: 1px #cccccc solid;
+    /* border-bottom: 1px #cccccc solid; */
 
     
 }
@@ -180,4 +179,61 @@ ul {
 
 .autoplay > h6 {
     padding: 10px;
+}
+.video-specific-details {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.views {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    color: #c0c0c0;
+    text-transform: uppercase;
+}
+.views > span {
+    font-size: 16px;
+}
+.channel-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+#profile {
+    width: 100px;
+    height: 100px;
+    margin: 0 !important;
+}
+.channel-actions {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 10px;
+}
+.channel-actions {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+}
+.subscribers {
+    text-align: center;
+    background-color: #f8f8f8;
+
+}
+.video-title {
+    padding-bottom: 1;
+}
+.video-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 5px;
+    border-top: 2px #ccc solid;
+}
+.share {
+    text-align: left;
+}
+.sentiments {
+    text-align: right;
 }
