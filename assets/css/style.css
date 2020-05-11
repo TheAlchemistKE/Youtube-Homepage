@@ -235,6 +235,8 @@ ul {
     justify-content: space-between;
     padding: 25px 5px;
     border-top: 2px #ccc solid;
+    margin-bottom: 5px;
+    background: white;
 }
 .share {
     text-align: left;
