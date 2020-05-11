@@ -185,9 +185,10 @@ ul {
     padding: 10px;
 }
 .video-specific-details {
-    display: flex;
-    justify-content: space-between;
-    align-content: space-between;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    position: relative;
+
 }
 .views {
     text-align: right;
@@ -195,7 +196,20 @@ ul {
     font-weight: bold;
     color: #c0c0c0;
     text-transform: uppercase;
+    bottom: 0;
+    position:absolute;                  
+    bottom:0;                          
+    right:0;
+    width: fit-content;
+    padding: 0px 20px 10px 20px;
+    border-bottom: 2px #0366d6 solid;
+
 }
+
+.views_container {
+    position: relative;
+}
+
 .views > span {
     font-size: 16px;
 }
@@ -233,13 +247,16 @@ ul {
 .video-actions {
     display: flex;
     justify-content: space-between;
-    padding: 25px 5px;
+    padding: 10px 10px;
     border-top: 2px #ccc solid;
+    border-bottom: 2px #ccc solid;
     margin-bottom: 5px;
     background: white;
+    margin-bottom: 20px;
 }
 .share {
-    text-align: left;
+    display: flex;
+    align-items: baseline;
 }
 .sentiments {
     text-align: right;
@@ -252,4 +269,21 @@ ul {
     width: 72px;
     height: 72px;
     /* border-radius: 25%; */
+}
+
+
+.current-video-show-more {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    border-bottom:1px #c0c0c0 solid;
+    box-shadow:0 3px #c0c0c0;
+}
+
+.current-video-show-more  > a {
+    color: #c0c0c0;
+}
+
+hr {
+    margin: 10px 0px;
 }
