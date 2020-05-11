@@ -237,3 +237,12 @@ ul {
 .sentiments {
     text-align: right;
 }
+/* STYLING PROFILE PICTURES */
+.profile_avatar {
+    width: 48px;
+}
+#comment_avatar {
+    width: 72px;
+    height: 72px;
+    /* border-radius: 25%; */
+}
