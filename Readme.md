@@ -44,11 +44,10 @@ To setup the project:
 - Twitter: [@kelynnjeri](https://twitter.com/kelynnjeri)
 - Linkedin: [Kelyn Paul](https://linkedin.com/kelynpaul)
 
-👤 **Author2**
+👤 **Berhanu Tarekegn**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@berhanu-tarekegn](https://github.com/berhanu-tarekegn)
+- Linkedin: [@berhanu-tarekegn](https://www.linkedin.com/in/berhanu-tarekegn-687367123/)
 
 ## 🤝 Contributing
 
