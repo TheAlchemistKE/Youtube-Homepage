@@ -4,25 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube</title>
+    <script src="https://kit.fontawesome.com/f977934f89.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <header>
         <nav class="nav_menu">
             <div class="left">
-                <img src="./assets/img/menu.png" alt="Menu">
+                <img src="./assets/img/menu.png" alt="Menu" id="nav-menu-icon">
                 <img src="./assets/img/youtube.png" id="youtube-logo" alt="Logo">
             </div>
             <div class="center">
               
-                <input id="search-input" type="text" placeholder="Search something...">
-                <img src="./assets/img/search.png" alt="" id="search-btn">
+                <input id="search-input" type="text" placeholder="Search">
+                <button class="fas fa-search" id="search-btn"></button>
+                <!-- <img src="./assets/img/search.png" alt="" id="search-btn"> -->
                 
             </div>
             <div class="right">
-                <img src="./assets/img/upload-solid.svg" alt="Add Video">
-                <img src="./assets/img/apps.png" alt="Add Video">
-                <img src="./assets/img/notifications.png" alt="Add Video">
+                <img src="./assets/img/upload-solid.svg" alt="Add Video" class="nav-icons">
+                <img src="./assets/img/apps.png" alt="Add Video" class="nav-icons">
+                <img src="./assets/img/notifications.png" alt="Add Video" class="nav-icons">
                 <a href="#" class="sign-in-btn">Sign In</a>
 
             </div>
