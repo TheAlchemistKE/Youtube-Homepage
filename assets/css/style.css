@@ -281,3 +281,7 @@ hr {
 #nav-menu-icon {
     margin-left: 16px;
 }
+.upnext > a {
+    margin-top: 7px;
+    color: #000;
+}
